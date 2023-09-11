@@ -17,7 +17,7 @@ use Illuminate\Support\Facades\Route;
 //pour tester dans le terminal : php artisan serve et appuyer sur 127.0.0.1:8000
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('hello2');
 });
 
 Route::get('/hello', function () {//http://127.0.0.1:8000/hello
